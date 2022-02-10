@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 400px 100px;
+    gap: 10px 20px;
+    justify-content: center;
+
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+}    
+
+.content{
+    background-color: gainsboro;
+    border: 1px solid ;
+    box-shadow: 2px 5px gainsboro;
+    border-radius: 7px;
+}
+
+.content2{
+    background-color: aquamarine;
+    padding-top: 40px;
+   
+    
+}
+
+.content5{
+    background-color: rgba(127, 255, 212, 0.548);
+    text-align: center;
+    padding-top: 20px;
+    grid-area: sidebar;
+    
+}
+
+.content4{
+    background-color: rgba(100, 148, 237, 0.473);
+}
+
+.content6{
+    background-color: rgba(100, 148, 237, 0.473);
+}
+
+/* area tanımlama: */
+.content1{
+    grid-column:3/4;
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.content2{
+    grid-area: header;
+}
