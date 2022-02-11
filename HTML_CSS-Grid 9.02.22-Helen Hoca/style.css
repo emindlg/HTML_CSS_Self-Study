@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 20% 50% 10% 10%;
+    grid-template-rows: 100px 300px 100px;
+    gap: 10px 10px;
+}
+
+.content{
+    background-color: cadetblue;
+    border: 1px solid gray;
+}
+
+.content2{
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+    
